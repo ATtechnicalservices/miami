@@ -61,7 +61,7 @@ yesBtn.addEventListener('click', () => {
     confetti({ particleCount: 200, spread: 80, origin: { y: 0.6 } });
     card.innerHTML = `
         <h1 style="color: #ff4081;">
-        <p>I knew you would say my sweet cute heart, i luv you <3 and always will luv you 7abibti ya 3asal, QUACK 😋.</p>
+        <p>I knew you would say yes my sweet cute heart, i luv you <3 and always will luv you 7abibti ya 3asal, QUACK 😋.</p>
         </h1>
         
        
@@ -79,5 +79,6 @@ const tryPlayMusic = () => {
         });
     });
 };
+
 
 window.addEventListener('load', tryPlayMusic);
